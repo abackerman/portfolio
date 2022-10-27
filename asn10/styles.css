@@ -1,0 +1,258 @@
+.site{
+    display: grid;
+    grid-template-columns: 2fr repeat (2, 1fr);
+    grid-template-rows: auto 1fr 3fr;
+}
+
+.nav {
+    grid-column: 1/4;
+    grid-row: 2/4;
+}
+
+
+
+html {
+    box-sizing: border-box;
+}
+
+*:before, *:after, {
+        box-sizing: inherit;
+    }
+
+
+
+.mw .btn {
+    color: white;
+    background-color: #424c55;
+    text decoration: none;
+    padding: 8;
+    border-radius: 35px;
+    display: inline-block;
+    text-align: center;
+}
+
+.mw .btn:hover {
+    background: #E86252;
+}
+
+.content-wrap {
+    width: 900px;
+    margin: 0 auto;
+    
+}
+
+.headshot {
+    display: inline-block;
+    border-radius: 50px;
+}
+______________________________________________________________*/
+body {
+    background-size: auto;
+    background-color: #f5edf0;
+    font-family: 'PT Serif', serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #3d2c2e;
+    margin: auto;
+    padding: 0, 200, 0, 200:
+    
+}
+
+/* Nav Bar
+______________________________________________________________*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:#E86252;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+li {
+    float: left;
+    cursor: pointer;
+}
+
+ul li ul {
+    padding: 0;
+    position: absolute;
+}
+
+a {
+    display: block;
+    padding: 20px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color:  #f5edf0;
+    font-weight: bolder;
+}
+
+li a:hover {
+    background-color: #424c55;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color:  #f5edf0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: #3d2c2e;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f5edf0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #3d2c2e;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #e9dbe0;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+/* Header
+______________________________________________________________*/
+header {
+    background-color: #4c5760;
+    color: #f5edf0;
+    text-align: center;
+    padding: 40px;
+    margin: 0;
+}
+
+
+img {
+    width: 300px;
+}
+
+/* Profile
+______________________________________________________________*/
+h1 {
+    color:  #f5edf0;
+    font-family: 'PT Serif', serif;
+    font-size: 72px;
+    font-weight: normal;
+    text-align: center;
+    padding: 5px;
+    margin:  auto;
+}
+
+.subhead {
+        color: #f5edf0;
+        padding; 10%, 50%, 10%, 50%;
+        margin: 10%, 50%, 10%, 50%;
+        display: inline-block;
+        width: 500px;
+        text-align: left;
+    }
+
+.subhead::first-letter {
+        color:#E86252;
+        font-size: 72px;
+    }
+    
+/* Projects
+______________________________________________________________*/
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight:bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #E86252;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-color: #424c55;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: u;
+    color: #E86252; 
+}
+
+.projects {
+    text-align: center;
+}
+
+/* Work Experience
+______________________________________________________________*/
+section {
+   
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 10px;
+
+}
+
+.work-experience {
+    background-color: #E86252;
+    color: #e9dbe0;
+}
+
+.WorkEx {
+    color: #424c55;
+    padding-bottom: 0%;
+}
+
+.manager {
+    color:#424c55;
+}
+/* E
+______________________________________________________________*/
+footer a:link {
+    color:#F3C969;
+    font-style: italic;
+} 
+
+.contact-wrap {
+    background-color: #E86252;
+}
+title {
+    margin: 100%;
+    padding: 0;
+}
+
+.projects ~ a:link {
+    color: #E86252;
+}
+
+.manager {
+    color:#e9dbe0;
+}
+
+.landmark {
+    text-transform: uppercase;
+}
+
+a, .projects {
+    color: #424c55;
+}
